@@ -1,29 +1,29 @@
 //CHANGE BACKGROUND IMAGES
 document.addEventListener('DOMContentLoaded', function() {
     const images = [
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_cranberry.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_green1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_green2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_lightblue1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_lightblue2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_lightblue3.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_navy1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_navy2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_orange.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_pink1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_pink2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2022_pink3.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_cranberry1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_cranberry2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_green2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_lightblue1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_lightblue2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_navy1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_navy2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_orange1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_orange2.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_pink1.jpg)',
-      'url(file:///Users/stephzimmerman/Desktop/ART/WEBSITE/img/backgroundimg/2024_pink2.jpg)',
+      'url(img/backgroundimg/2022_cranberry.jpg)',
+      'url(img/backgroundimg/2022_green1.jpg)',
+      'url(img/backgroundimg/2022_green2.jpg)',
+      'url(img/backgroundimg/2022_lightblue1.jpg)',
+      'url(img/backgroundimg/2022_lightblue2.jpg)',
+      'url(img/backgroundimg/2022_lightblue3.jpg)',
+      'url(img/backgroundimg/2022_navy1.jpg)',
+      'url(img/backgroundimg/2022_navy2.jpg)',
+      'url(img/backgroundimg/2022_orange.jpg)',
+      'url(img/backgroundimg/2022_pink1.jpg)',
+      'url(img/backgroundimg/2022_pink2.jpg)',
+      'url(img/backgroundimg/2022_pink3.jpg)',
+      'url(img/backgroundimg/2024_cranberry1.jpg)',
+      'url(img/backgroundimg/2024_cranberry2.jpg)',
+      'url(img/backgroundimg/2024_green2.jpg)',
+      'url(img/backgroundimg/2024_lightblue1.jpg)',
+      'url(img/backgroundimg/2024_lightblue2.jpg)',
+      'url(img/backgroundimg/2024_navy1.jpg)',
+      'url(img/backgroundimg/2024_navy2.jpg)',
+      'url(img/backgroundimg/2024_orange1.jpg)',
+      'url(img/backgroundimg/2024_orange2.jpg)',
+      'url(img/backgroundimg/2024_pink1.jpg)',
+      'url(img/backgroundimg/2024_pink2.jpg)',
     ];
   
     let currentIndex = Math.floor(Math.random() * images.length);
@@ -63,14 +63,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const navHTML = `
         <nav>
             <div class="navleft">
-                <a style="text-decoration:none;" class="linkleft" id="moving-text" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/index.html">
+                <a style="text-decoration:none;" class="linkleft" id="moving-text" href="index.html">
                     Steph Zimmerman
                 </a>
             </div>
             <div class="navright">
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/info.html" data-page="info">Info</a>
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/archive.html" data-page="archive">Archive</a>
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/teaching.html" data-page="teaching">Teaching</a>
+                <a class="linkright" href="info.html" data-page="info">Info</a>
+                <a class="linkright" href="archive.html" data-page="archive">Archive</a>
+                <a class="linkright" href="teaching.html" data-page="teaching">Teaching</a>
             </div>
             <!-- Hamburger Icon -->
             <button class="hamburger" aria-label="Toggle navigation">
@@ -78,9 +78,9 @@ document.addEventListener('DOMContentLoaded', function() {
             </button>
             <!-- Dropdown Menu -->
             <div class="dropdown">
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/info.html" data-page="info">Info</a>
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/archive.html" data-page="archive">Archive</a>
-                <a class="linkright" href="file:///Users/stephzimmerman/Desktop/ART/WEBSITE/teaching.html" data-page="teaching">Teaching</a>
+                <a class="linkright" href="info.html" data-page="info">Info</a>
+                <a class="linkright" href="archive.html" data-page="archive">Archive</a>
+                <a class="linkright" href="teaching.html" data-page="teaching">Teaching</a>
             </div>
         </nav>
         <!-- Overlay for dimming the rest of the page -->
